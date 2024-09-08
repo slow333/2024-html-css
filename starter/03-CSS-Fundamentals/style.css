@@ -1,0 +1,64 @@
+body {
+  color: #333;
+}
+
+.main-header {
+  background-color: #08615c;
+  padding: 1rem 2rem;
+}
+.main-header h1 {
+  color: aqua;
+}
+h2 {
+  position: relative;
+}
+h2::before {
+  content: "LIM TOP";
+  background-color: yellow;
+  color: #444;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  padding: 5px;
+}
+nav {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+nav a:link {
+  color: aliceblue;
+}
+nav a:active {
+  color: aqua;
+}
+nav a:hover {
+  color: orange;
+}
+
+article {
+  padding: 1rem 1.2rem;
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+aside {
+  border-top: 4px solid #08615c;
+  border-bottom: 4px solid #08615c;
+  width: 50%;
+  background-color: azure;
+}
+aside h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+aside li {
+  list-style-type: none;
+}

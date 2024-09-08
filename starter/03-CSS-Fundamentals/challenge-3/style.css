@@ -1,0 +1,88 @@
+body {
+  width: 90%;
+}
+article {
+  position: relative;
+  width: 600px;
+  border: 3px solid #222;
+  margin: 10px;
+}
+header h1 {
+  background-color: cadetblue;
+  margin: 0;
+  padding: 9px;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+.price {
+  font: bold 1.5rem bolder;
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:link::after {
+  content: "→";
+  font-size: 1.6rem;
+  padding: 0 8px;
+}
+.colorBox {
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+  padding: 10px 0;
+}
+.colorBox span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.colorBox .first {
+  background-color: black;
+}
+.colorBox .second {
+  background-color: blue;
+}
+.colorBox .third {
+  background-color: red;
+}
+.colorBox .fourth {
+  background-color: orange;
+}
+.colorBox .fifth {
+  background-color: green;
+}
+.colorBox .sixth {
+  background-color: brown;
+}
+.top-tag {
+  position: absolute;
+  top: -16px;
+  left: -20px;
+  background-color: red;
+  padding: 9px;
+  color: aliceblue;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  width: 100%;
+  font: bold 1.4rem bolder;
+  border: 0;
+  display: inline-block;
+  text-align: center;
+  background-color: #709ca8;
+  color: white;
+  padding: 15px 25px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  border-bottom-color: rgba(0, 0, 0, 0.34);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.34) inset,
+    0 2px 0 -1px rgba(0, 0, 0, 0.13), 0 3px 0 -1px rgba(0, 0, 0, 0.08),
+    0 3px 13px -1px rgba(0, 0, 0, 0.21);
+}
